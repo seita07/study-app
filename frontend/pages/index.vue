@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       subTitle: 'Zenn is good service!!',
-      tasks: []
+      tasks: ""
     }
   },
   methods: {
