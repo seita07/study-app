@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'spa',
+  ssr: false,
   server: {
     port: 3000,
     host: '0.0.0.0',
@@ -42,6 +42,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
   ],
   /*
   ** Build configuration
