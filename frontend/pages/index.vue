@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     getSomething() {
-      const url = 'http://localhost:5000/api/v1/tasks'
+      const url = '/api/v1/tasks'
       this.$axios.get(url)
         .then((res) => {
           this.tasks = res.data
