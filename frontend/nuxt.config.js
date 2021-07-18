@@ -5,6 +5,9 @@ export default {
     port: 3000,
     host: '0.0.0.0',
   },
+  axios: {
+    baseURL: process.env.NODE_ENV === "production" ? "https://backend.study-fight.com" : "http://localhost:5000"
+  },
   /*
   ** Headers of the page
   */
