@@ -7,6 +7,7 @@
       <h2 class="subtitle">
         {{ subTitle }}
       </h2>
+      <h3>タスク</h3>
       <button @click="getSomething()">
         タスク取得
       </button>
